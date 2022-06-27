@@ -2,39 +2,31 @@
 
 # Project Name
 
-> Description the project.
+> This project is a website that allows user to perform calculation and serves as a calculator.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- React
 
-## Live Demo (if available)
+<!-- ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://livedemo.com) -->
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
+- Node installed on you machine
 ### Setup
-
+- To get started you must first clone the project from the repository.
 ### Install
-
+- Then you should install all necessary packages using `npm install` command.
 ### Usage
+- In order to start the project run `npm start` on your command line to start the react server.
 
-### Run tests
-
-### Deployment
 
 
 
@@ -42,15 +34,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@NatiDeme](https://github.com/NatiDeme)
+- Twitter: [@NatiDemelash](https://twitter.com/NatiDemelash)
+- LinkedIn: [Natnael Demelash](https://www.linkedin.com/in/natnael-demelash/)
 
 ## 🤝 Contributing
 
@@ -61,12 +47,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
