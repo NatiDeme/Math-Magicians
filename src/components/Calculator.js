@@ -4,7 +4,7 @@ import calculate from '../logic/calculate';
 
 // eslint-disable-next-line react/prefer-stateless-function
 const Calculator = () => {
-  const [state, setState] = useState({
+  const [nums, setState] = useState({
     total: null,
     next: null,
     operation: null,
@@ -13,11 +13,11 @@ const Calculator = () => {
   const afterClick = (e) => {
     const buttonName = e.target.innerText;
     setState(calculate({
-      ...state,
+      ...nums,
     }, buttonName));
   };
 
-  const { total, operation, next } = state;
+  const { total, operation, next } = nums;
 
   const result = (
     <p>
