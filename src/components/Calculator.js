@@ -6,6 +6,7 @@ class Calculator extends React.Component {
   render() {
     return (
       <div className="Calculator-layout">
+        <h2>Lets do some math</h2>
         <input type="number" className="cal-input" id="calculator-input" placeholder="0" />
 
         <div className="row">
