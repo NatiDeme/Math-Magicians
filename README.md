@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Math-Magicians
 
 > This project is a website that allows user to perform calculation and serves as a calculator.
 
