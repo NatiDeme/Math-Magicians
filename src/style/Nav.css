@@ -9,7 +9,7 @@
 
 .item {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .item:hover {
@@ -21,8 +21,15 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 10rem;
+    background-color: black;
+    color: white;
 }
 
 .home-page {
     padding: 0 5rem;
+}
+
+.quote-page {
+    padding: 0 10rem;
+    font-size: 3rem;
 }
