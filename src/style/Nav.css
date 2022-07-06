@@ -1,0 +1,35 @@
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.item {
+  text-decoration: none;
+  color: white;
+}
+
+.item:hover {
+  text-decoration: underline;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10rem;
+  background-color: black;
+  color: white;
+}
+
+.home-page {
+  padding: 0 5rem;
+}
+
+.quote-page {
+  padding: 0 10rem;
+  font-size: 3rem;
+}

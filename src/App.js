@@ -1,27 +1,24 @@
 import React from 'react';
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
 import Calculator from './components/Calculator';
+import Quote from './components/Quote';
+import Home from './components/Home';
+import NavBar from './components/NavBar';
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header" />
-//       <Calculator />
-//     </div>
-//   );
-// }
-
-// eslint-disable-next-line react/prefer-stateless-function
-class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <Calculator />
-        </div>
+function App() {
+  return (
+    <>
+      <NavBar />
+      <div className="contents">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/quote" element={<Quote />} />
+        </Routes>
       </div>
-    );
-  }
+    </>
+  );
 }
 
 export default App;

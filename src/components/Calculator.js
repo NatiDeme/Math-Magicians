@@ -31,35 +31,38 @@ const Calculator = () => {
 
   return (
     <div className="Calculator-layout">
-      <div className="cal-input">{result}</div>
-      <div className="row">
-        <button type="button" className="btn btn-outline-primary" onClick={afterClick}>AC</button>
-        <button type="button" className="btn btn-outline-primary" onClick={afterClick}>+/-</button>
-        <button type="button" className="btn btn-outline-primary" onClick={afterClick}>%</button>
-        <button type="button" className="btn btn-outline-primary right" onClick={afterClick}>/</button>
-      </div>
-      <div className="row">
-        <button type="button" className="btn btn-outline-primary" onClick={afterClick}>7</button>
-        <button type="button" className="btn btn-outline-primary" onClick={afterClick}>8</button>
-        <button type="button" className="btn btn-outline-primary" onClick={afterClick}>9</button>
-        <button type="button" className="btn btn-outline-primary right" onClick={afterClick}>*</button>
-      </div>
-      <div className="row">
-        <button type="button" className="btn btn-outline-primary" onClick={afterClick}>4</button>
-        <button type="button" className="btn btn-outline-primary" onClick={afterClick}>5</button>
-        <button type="button" className="btn btn-outline-primary" onClick={afterClick}>6</button>
-        <button type="button" className="btn btn-outline-primary right" onClick={afterClick}>-</button>
-      </div>
-      <div className="row">
-        <button type="button" className="btn btn-outline-primary" onClick={afterClick}>1</button>
-        <button type="button" className="btn btn-outline-primary" onClick={afterClick}>2</button>
-        <button type="button" className="btn btn-outline-primary" onClick={afterClick}>3</button>
-        <button type="button" className="btn btn-outline-primary right" onClick={afterClick}>+</button>
-      </div>
-      <div className="row">
-        <button type="button" className="btn btn-outline-primary zero" onClick={afterClick}>0</button>
-        <button type="button" className="btn btn-outline-primary" onClick={afterClick}>.</button>
-        <button type="button" className="btn btn-outline-primary right" onClick={afterClick}>=</button>
+      <h2>Lets do some math!</h2>
+      <div className="cal-section">
+        <div className="cal-input">{result}</div>
+        <div className="row">
+          <button type="button" className="btn btn-outline-primary" onClick={afterClick}>AC</button>
+          <button type="button" className="btn btn-outline-primary" onClick={afterClick}>+/-</button>
+          <button type="button" className="btn btn-outline-primary" onClick={afterClick}>%</button>
+          <button type="button" className="btn btn-outline-primary right" onClick={afterClick}>/</button>
+        </div>
+        <div className="row">
+          <button type="button" className="btn btn-outline-primary" onClick={afterClick}>7</button>
+          <button type="button" className="btn btn-outline-primary" onClick={afterClick}>8</button>
+          <button type="button" className="btn btn-outline-primary" onClick={afterClick}>9</button>
+          <button type="button" className="btn btn-outline-primary right" onClick={afterClick}>*</button>
+        </div>
+        <div className="row">
+          <button type="button" className="btn btn-outline-primary" onClick={afterClick}>4</button>
+          <button type="button" className="btn btn-outline-primary" onClick={afterClick}>5</button>
+          <button type="button" className="btn btn-outline-primary" onClick={afterClick}>6</button>
+          <button type="button" className="btn btn-outline-primary right" onClick={afterClick}>-</button>
+        </div>
+        <div className="row">
+          <button type="button" className="btn btn-outline-primary" onClick={afterClick}>1</button>
+          <button type="button" className="btn btn-outline-primary" onClick={afterClick}>2</button>
+          <button type="button" className="btn btn-outline-primary" onClick={afterClick}>3</button>
+          <button type="button" className="btn btn-outline-primary right" onClick={afterClick}>+</button>
+        </div>
+        <div className="row">
+          <button type="button" className="btn btn-outline-primary zero" onClick={afterClick}>0</button>
+          <button type="button" className="btn btn-outline-primary" onClick={afterClick}>.</button>
+          <button type="button" className="btn btn-outline-primary right" onClick={afterClick}>=</button>
+        </div>
       </div>
     </div>
   );

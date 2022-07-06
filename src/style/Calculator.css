@@ -32,3 +32,18 @@ input::placeholder {
 .zero {
   width: 16rem;
 }
+
+.Calculator-layout {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+}
+
+.Calculator-layout h2 {
+  font-size: 3rem;
+}
+
+.cal-section {
+  border: 1px solid black;
+  padding: 5rem;
+}
