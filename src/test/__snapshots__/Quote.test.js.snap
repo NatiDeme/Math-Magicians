@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="quote-page"
+>
+  <p>
+    Math is beautiful. But sometimes, this can be hard to see, and even harder to convey to students who don’t — yet — share your passion.
+  </p>
+</div>
+`;
